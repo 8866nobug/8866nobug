@@ -1,7 +1,51 @@
-// Hi, I'm 8866, a beginner programmer from China. I am fascinated by everything about computers because I believe they can change the world.
-
-//Currently, I have learned the basics of C and C++ languages. Besides the exercises in books, I haven't done many other projects. However, recently, I wrote a small graphical program using the Easy_X library, which made me very happy for a long time.
-
-//In the next stage, I plan to study algorithms and computer hardware. I might write some blog posts to share my experiences and exchange ideas with others.
-
-//This is my first time writing on GitHub, and I hope to make friends through programming and contribute my small part to changing the world through coding!
+王向阳 - 后端工程师 - Java
+Java 基础： 熟练掌握 Java 基础知识，具备良好的面向对象编程思想；熟悉 Java 集合框架、多线程并发编程
+（ThreadLocal、线程池、CAS）及常用设计模式。
+核心框架：深入理解 Spring / Spring Boot 核心原理；熟练使用 **MyBatis-Plus 进行持久层开发；熟悉 **AOP
+编程，有处理全局异常、基于 JWT 实现无状态登录校验的实操经验。
+数据存储： 熟练编写 MySQL 复杂 SQL 及索引优化；深耕 Redis 应用，包括缓存预热、Lua 脚本实现分布式
+锁与原子性扣减，具备处理缓存击穿/雪崩/穿透的线上方案思维。
+中间件 & 分布式： 熟练使用 RabbitMQ 处理复杂异步解耦、削峰填谷及可靠性投递方案；熟悉 Redis Stream
+的消费者组模式，并能结合业务场景（如实时推送、轻量级异步任务）选择最优消息队列解决方案。了解
+Docker 容器化部署及常用镜像管理。
+开发工具： 熟练使用 Linux 常用命令进行环境搭建与程序调试；熟练运用 Maven 项目构建工具及 Git 版本控
+制协作。
+项目描述： 
+基于 Spring Boot 构建的高并发社交点评系统，实现用户登录、优惠券秒杀、附近商铺及点赞排行榜等核心功
+能。
+核心亮点：
+高并发秒杀优化： 利用 Redis + Lua 脚本 实现了秒杀资格预检，结合 RabbitMQ/Redis Stream 异步下
+单，经 JMeter 模拟 5000+ 并发场景进行压力测试，接口 QPS 从 200 提升至 1500+，系统响应时间降
+低了 70%，并平稳通过了瞬时流量峰值测试 。
+分布式锁实践： 针对优惠券超卖、一人一单问题，对比分析了 JVM 锁与 Redisson 分布式锁，通过 Lua
+脚本确保了扣减库存的原子性。
+多级缓存策略： 针对热点商铺数据，设计了基于 Redis 的逻辑过期与互斥锁方案，成功解决缓存击穿问
+题，并实现近 100% 的查询命中率。
+安全认证： 采用 JWT + ThreadLocal 实现了无状态登录认证，并封装拦截器完成了全局用户上下文管
+理。
+复杂业务逻辑： 实现了订单状态机管理，涵盖下单、支付、接单、派送、催单等全流程。
+实时交互： 采用 WebSocket 实现了商家端的实时来单语音提醒，优化了订单处理效率。
+全局行为日志： 结合 AOP + 自定义注解，实现了对核心业务接口（如秒杀、支付）的异步日志审计，
+通过切面自动捕获请求参数、执行时间及用户操作，为后续系统性能分析提供了数据支撑。
+数据统计分析： 利用 Apache POI 实现营业额、用户量等数据的 Excel 报表导出；通过 ECharts 前后端
+交互实现动态数据看板。
+ 男/2005.02
+ w1739599417
+ wanger1991@outlook.com
+ https://github.com/8866nobug
+教育背景
+河南工业大学 - 计算机科学与技术2023.09 - 2027.07
+核心课程： 数据结构与算法、操作系统、计算机网络、数据库系统原理、Java程序设计、计算机组成原理。
+专业技能
+项目经历
+1.分布式高并发社交消费平台
+SpringBoot Redis Redisson RabbitMQ Lua
+2.餐饮企业级全链路数字化运营管理系统
+SpringBoot MyBatis-Plus MySQL Redis SpringAOP  WebSocket
+项目描述： 
+一款为餐饮企业定制的运营管理系统，涵盖报表统计、订单生命周期管理及微信小程序端交互。
+核心亮点：
+自我评价
+专注 Java 后端开发，具备扎实的计算机基础与高并发、缓存优化实战经验。积极拥抱 AI 浪潮，目前正深入研习
+Spring AI 框架及大模型（LLM）应用开发，致力于探索 RAG（检索增强生成）与后端业务的深度融合。 具备良
+好的代码规范意识与自主学习精神，习惯查阅官方英文文档解决复杂技术挑战。
