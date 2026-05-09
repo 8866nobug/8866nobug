@@ -38,7 +38,11 @@
 > **关键词**：`SpringAOP` `WebSocket` `MySQL` `Apache POI`
 * 基于 **AOP + 自定义注解** 实现了核心接口的异步日志审计，解耦业务逻辑与监控逻辑。
 * 采用 **WebSocket** 实现了商家端实时语音提醒，显著优化订单处理效率。
-
+  
+#### 3️⃣ AI ToDo 智能待办管理系统
+> **关键词**：`Spring Boot` `LangChain4j` `RAG` `Milvus` `Redis`
+* 基于 **LangChain4j + 大模型 Agent** 实现自然语言任务创建，可自动识别简单任务与复杂目标，并生成阶段化执行计划。
+* 引入 **Milvus 向量检索 + Redis 对话记忆 + SSE/WebSocket 实时反馈**，支持历史任务语义检索、AI 任务复盘与 PDF 报告导出。
 ---
 
 ### 📫 联系方式 (Contact)
