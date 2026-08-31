@@ -1,51 +1,138 @@
 # 👨‍💻 王向阳 | Wang Xiangyang
-**Java 后端工程师 | 2027 届本科生**
 
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com)
-[![SpringBoot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](https://spring.io/)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io/)
+**Java 后端开发 · AI 应用开发 · 2027 届本科生**
+
+河南工业大学 · 计算机科学与技术 · 2023.09 - 2027.07
 
 ---
 
-### 🚀 关于我 (About Me)
-* **教育背景**：河南工业大学 - 计算机科学与技术 (2023.09 - 2027.07)
-* **技术视野**：深耕 Java 后端开发，具备扎实的计算机基础与高并发实战经验。
-* **AI 拥抱者**：积极探索 **Spring AI** 框架与大模型 (LLM) 结合，研究 **RAG** 技术在业务场景的落地。
-* **核心竞争力**：习惯查阅官方 **英文文档**，具备良好的代码规范意识与自主学习精神。
+## 🚀 关于我
+
+* ☕ 主要使用 **Java** 进行后端开发，熟悉 Spring Boot、MySQL、Redis 等技术
+* ⚡ 关注**高并发与分布式系统**，实践过 Redis、Lua、分布式锁、消息队列等技术
+* 🤖 关注 **AI 应用开发**，正在深入学习 RAG、Agent、Tool Calling、Workflow 等方向
+* 🧠 使用 **LangChain4j、LangGraph、Spring AI、Dify** 探索大模型在实际业务中的应用
+* 📚 习惯阅读**官方英文技术文档**，具备较好的技术资料检索与自主学习能力
+* 🇬🇧 **CET-6**，能够阅读英文技术文档
 
 ---
 
-### 🛠 技术栈 (Tech Stack)
+## 🛠️ 技术栈
 
-| 领域 | 核心技术 |
-| :--- | :--- |
-| **核心框架** | Spring Boot, MyBatis-Plus, **Spring AOP** (异步日志/全局异常处理) |
-| **分布式** | Redis (分布式锁/Lua 脚本), RabbitMQ (削峰填谷), Redis Stream |
-| **性能调优** | **JMeter 压力测试**, MySQL 索引优化, JVM 基础 |
-| **工程化** | Linux, Docker, Maven, Git |
+| 方向          | 技术                                             |
+| :---------- | :--------------------------------------------- |
+| **编程语言**    | Java、Python、C/C++、JavaScript                   |
+| **后端开发**    | Spring Boot、MyBatis-Plus、Spring AOP            |
+| **数据库**     | MySQL、PostgreSQL                               |
+| **缓存与消息队列** | Redis、Redisson、RabbitMQ、RocketMQ               |
+| **微服务**     | Spring Cloud、Nacos、Gateway                     |
+| **AI 应用**   | LangChain4j、LangGraph、Spring AI、Dify、RAG、Agent |
+| **工程化**     | Linux、Docker、Maven、Git                         |
+| **性能优化**    | JMeter、MySQL 索引优化、JVM 基础                       |
 
 ---
 
-### 🌟 精选项目 (Featured Projects)
+## 🌟 项目经历
 
-#### 1️⃣ 分布式高并发社交消费平台
-> **关键词**：`Redis` `Redisson` `RabbitMQ` `Lua`
-* 利用 **Redis + Lua 脚本** 实现秒杀资格预检，通过 **RabbitMQ** 异步下单提升系统吞吐量。
-* 对比分析 JVM 锁与 **Redisson 分布式锁**，确保高并发下库存扣减的原子性。
+### 🤖 BugKiller · AI Agent 智能调试助手
 
-#### 2️⃣ 餐饮全链路数字化运营管理系统
-> **关键词**：`SpringAOP` `WebSocket` `MySQL` `Apache POI`
-* 基于 **AOP + 自定义注解** 实现了核心接口的异步日志审计，解耦业务逻辑与监控逻辑。
-* 采用 **WebSocket** 实现了商家端实时语音提醒，显著优化订单处理效率。
-  
-#### 3️⃣ AI ToDo 智能待办管理系统
-> **关键词**：`Spring Boot` `LangChain4j` `RAG` `Milvus` `Redis`
-* 基于 **LangChain4j + 大模型 Agent** 实现自然语言任务创建，可自动识别简单任务与复杂目标，并生成阶段化执行计划。
-* 引入 **Milvus 向量检索 + Redis 对话记忆 + SSE/WebSocket 实时反馈**，支持历史任务语义检索、AI 任务复盘与 PDF 报告导出。
+**Python · LangGraph · LLM · RAG · Agent · Tool Calling**
+
+面向软件开发场景的 AI Agent，用于辅助开发者分析 Bug、定位问题并生成解决方案。
+
+* 基于 **LangGraph** 构建 Agent 工作流，通过 State 驱动多阶段推理与工具调用
+* 结合 **RAG** 检索项目知识与技术文档，为 Agent 提供领域上下文
+* 设计可复用的 **Tools / Skills**，扩展 Agent 的代码分析、知识检索等能力
+* 基于 Checkpoint 持久化 Agent 状态，支持复杂任务的持续执行与恢复
+* 探索大模型在**软件工程与开发辅助场景**中的实际应用
+
 ---
 
-### 📫 联系方式 (Contact)
-* **Email**: [wanger1991@outlook.com](mailto:wanger1991@outlook.com)
-* **GitHub**: [8866nobug](https://github.com/8866nobug)
-* **语言能力**: 英语四级 (CET-4)，具备良好的官方技术文档阅读能力。
+### 🏙️ Local Life · 本地生活微服务平台
+
+**Java · Spring Boot · Spring Cloud · Redis · RabbitMQ · Nacos · Docker**
+
+将传统单体本地生活项目重构为微服务架构，实践高并发、分布式与服务治理相关技术。
+
+* 将单体应用拆分为用户、商铺、优惠券、博客等多个独立微服务
+* 基于 **Gateway** 实现统一路由与服务访问入口
+* 使用 **Redis + Lua** 实现秒杀资格校验与库存扣减
+* 使用 **RabbitMQ** 异步处理订单，实现流量削峰与业务解耦
+* 实践 **Redisson 分布式锁、Redis Stream、缓存优化**等技术
+* 使用 **Nacos** 进行服务注册与配置管理
+* 使用 **Docker** 管理 MySQL、Redis、MQ 等基础设施
+
+---
+
+### 📚 RAG 知识库
+
+**Python · RAG · Embedding · Vector Database · BM25**
+
+面向 AI 应用构建的通用知识库系统，为 Agent 提供可靠的外部知识检索能力。
+
+* 设计文档解析、文档切分、Metadata 提取与索引构建流程
+* 针对不同类型文档设计不同的**切分策略**
+* 结合**向量检索 + BM25 关键词检索**实现混合检索
+* 使用 Metadata Filter 对检索范围进行约束，提高检索准确性
+* 为 AI Agent 提供独立的知识检索能力
+
+---
+
+## 💼 实习经历
+
+### 致远互联 · 软件开发实习生
+
+**2026.07**
+
+* 参与企业级低代码开发平台相关功能开发与问题修复
+* 参与接口开发、Bug 定位及系统问题排查
+* 熟悉企业级项目开发流程、代码规范与协作方式
+
+---
+
+## 📖 技术探索
+
+目前主要关注：
+
+```text
+Java 后端
+├── Spring Boot
+├── Spring Cloud
+├── Redis / MQ
+├── 微服务
+└── 高并发与性能优化
+
+AI 应用
+├── RAG
+├── Agent
+├── LangGraph
+├── LangChain4j
+└── Spring AI
+
+工程实践
+├── Docker
+├── Linux
+├── JMeter
+└── 系统设计
+```
+
+---
+
+## 🎯 求职方向
+
+**Java 后端开发 / AI 应用开发**
+
+希望在实际项目中持续深入：
+
+> **Java 后端 → 分布式系统 → AI 应用 → Agent / RAG**
+
+持续学习，持续实践，把技术真正落到项目中。
+
+---
+
+## 📫 联系方式
+
+* 📧 Email：[wanger1991@outlook.com](mailto:wanger1991@outlook.com)
+* 🐙 GitHub：8866nobug
+* 🎓 河南工业大学 · 计算机科学与技术
+* 🇬🇧 英语：CET-6
