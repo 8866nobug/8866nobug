@@ -24,8 +24,8 @@
 | **编程语言**    | Java、Python、C/C++、JavaScript                   |
 | **后端开发**    | Spring Boot、MyBatis-Plus、Spring AOP            |
 | **数据库**     | MySQL、PostgreSQL                               |
-| **缓存与消息队列** | Redis、Redisson、RabbitMQ、RocketMQ               |
-| **微服务**     | Spring Cloud、Nacos、Gateway                     |
+| **缓存与消息队列** | Redis、RabbitMQ、RocketMQ               |
+| **微服务**     | Spring Cloud、Nacos、Gateway、dubbo                    |
 | **AI 应用**   | LangChain4j、LangGraph、Spring AI、Dify、RAG、Agent |
 | **工程化**     | Linux、Docker、Maven、Git                         |
 | **性能优化**    | JMeter、MySQL 索引优化、JVM 基础                       |
